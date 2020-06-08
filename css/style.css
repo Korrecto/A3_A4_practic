@@ -48,20 +48,20 @@ body {
     max-width: 1249px;
     margin: 0 auto;
     padding-top: 88px;
-    padding-bottom: 70px;
+    padding-bottom: 110px;
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.t-box {
+.text-box {
     max-width: 50%;
     
 
 }
 
-.t-box  h1 {
+.text-box  h1 {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -78,7 +78,7 @@ body {
     font-weight: normal;
     font-size: 16px; 
     color: rgb(0,0,0);
-    margin: 0 84px 85px 0;    
+    margin: 0 84px 87px 0;    
 }  
 
 .button {
@@ -93,8 +93,46 @@ body {
     text-decoration: none;
 }
 
-.vbox {
+.video-box {
     margin-left: 68px;
     width: 551px;
     height: 356px;
+}
+
+.portfolio {
+    padding-top: 115px;
+    padding-bottom: 105px;
+    margin: 0 auto;
+    max-width: 1249px;
+    background-color: rgb(255,255,255); 
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-lbox {
+    max-width: 50%;
+}
+
+.portfolio-lbox  h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    text-transform: uppercase;
+    color: rgb(0,0,0);
+    margin: -20px 0 7px;
+}
+.portfolio-rbox {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-infobox {
+    max-width: 288px;
+
 }
