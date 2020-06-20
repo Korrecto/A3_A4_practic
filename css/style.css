@@ -206,7 +206,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 11px; 
+    margin-bottom: 12px; 
 }
 .feature-products h2 {
     font-family: 'Open Sans', sans-serif;
@@ -215,7 +215,7 @@ header {
     font-size: 41.9876px;
     text-transform: uppercase; 
     padding-left: 19px;
-    margin-bottom: -4px;
+    margin: 36px 0px 0px 0px;
 }
 .feature-products p {
     font-family: 'Open Sans', sans-serif;
@@ -223,7 +223,8 @@ header {
     font-weight: normal;
     font-size: 15.9953px;
     line-height: 28px; 
-    padding-left: 33px;
+    margin-top: 12px;
+    margin-left: 33px;
     max-width: 537px;
     text-align: center 
 }
@@ -285,8 +286,9 @@ header {
     font-style: normal;
     font-weight: bold;
     font-size: 42.1902px;
-    text-transform: uppercase;   
-    margin-bottom: 17px;
+    text-transform: uppercase; 
+    margin-top: 33px;  
+    margin-bottom: 18px;
 }
 .team-hbox p {
     font-family: 'Open Sans', sans-serif;
@@ -370,9 +372,9 @@ header {
 
 .subscribe {
     margin: auto;
-    margin-top: 110px;
+    margin-top: 109px;
     max-width: 1579px;
-    min-height: 513px;
+    min-height: 511px;
     background-color: #2c2c2c;
 }
 .subscribe-h {
@@ -434,4 +436,167 @@ header {
 	max-width: 181px;
 	min-height: 79px;
 	padding-left: 35px; 
+}
+.touch {
+    margin: auto;
+    max-width: 1579px;
+    
+}
+.touch-bx1 {
+    margin-left: 165px;
+}
+.touch-bx1 h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px; 
+    text-transform: uppercase;
+    margin-top: 94px;
+    margin-bottom: 28px;
+}
+
+.touch-bx1 p{
+    max-width: 752px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.9953px;
+    line-height: 28px;
+    margin: 0px 0 0 1px;
+}
+.line4 {
+    width: 130px;
+    height: 2px;
+    border: none;
+    margin: 54px 0 0 0;
+    background-color: #ff2d2d;
+    margin-left: 165px;
+} 
+.bigbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 76px;
+    margin-left: 165px;
+}
+
+.midlbox {
+    display: flex;
+    flex-direction: column;
+    min-width: 730px;
+}    
+.smallbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;    
+}
+.smallbox p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    
+    margin: 0;
+    
+}
+.name {
+    width: 337px;
+	max-width: 337px;
+	height: 69px;
+    background-color: grey;
+}
+.name p {
+    font-size: 18.0412px;
+    padding: 23px 0px 0px 53px;
+
+}
+.y-mail {
+    width: 337px;
+	max-width: 337px;
+	height: 69px;
+    background-color: grey;
+}
+.y-mail p {
+    font-size: 15.9134px;
+    padding: 24px 0px 0px 47px;
+}
+.mesage {
+    min-width: 730px;
+    height: 250px;
+    background-color: grey;
+    margin-top: 45px;
+}
+.mesage p {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.9134px;
+    padding: 15px 0px 0px 51px;
+}
+.button-send {
+    min-width: 730px;
+    height: 72px;
+    background-color: #FF3B3B;
+    margin-top: 45px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.button-send a {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.9026px;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.co-info {
+    min-width: 576px;
+    min-height: 481px;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+.co-info h3 {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 17.9026px;
+    text-transform: uppercase;
+    padding: 121px 0px 0px 79px;
+}
+.co-info p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 8px 0px 0px 79px;
+}
+footer {
+    margin: auto;
+    margin-top: 110px;
+    max-width: 1579px;
+    background-color: #313030;
+    min-height: 111px;    
+}
+.footer-co {
+    margin-left: 164px;
+    max-width: 1249px;    
+    display: flex;
+	align-items: center;
+	justify-content: space-between;    
+}
+.footer-co p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #B8B8B8;
+    padding: 38px 0px 0px 2px;
+}
+.footer-soc {
+    margin-top: 38px;
+}
+.footer-soc a {
+    padding-left: 14px;
 }
