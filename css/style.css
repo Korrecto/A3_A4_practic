@@ -1,5 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap'); */
 
+
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-family: 'OpenSans Regular';
+}
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-family: 'OpenSans Bold';
+}
+@font-face {
+	src: url('../fonts/OpenSans-SemiBold.ttf');
+	font-family: 'OpenSans SemiBold';
+}
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf');
+	font-family: 'OpenSans ExtraBold';
+}
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf');
+	font-family: 'OpenSans Italic';
+}
+@font-face {
+	src: url('../fonts/OpenSans-Light.ttf');
+	font-family: 'OpenSans Light';
+}
 body {
     margin: 0;
 }
@@ -76,7 +101,7 @@ header {
     font-weight: normal;
     font-size: 15.9953px;
     line-height: 28px;
-    margin: 0 84px 71px 0;    
+    margin: 0 84px 75px 0;    
 }  
 .button {
     color: rgb(255,255,255);
@@ -114,7 +139,7 @@ header {
     font-size: 42.1902px;
     line-height: 55px;
     text-transform: uppercase;   
-    margin: 13px 0 32px;
+    margin: 14px 0 32px;
 }
 .portfolio-lbox p {
     font-family: 'Open Sans', sans-serif;
@@ -122,11 +147,11 @@ header {
     font-weight: normal;
     font-size: 16px;
     line-height: 28px;
-    margin-bottom: 72px;
+    margin-bottom: 99px;
 }
 .bt-learn {
     color: #FF0000;    
-    padding: 13px 57px;
+    padding: 16px 63px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -139,10 +164,8 @@ header {
 .portfolio-rbox {
     max-width: 608px;
     display: flex;
-    justify-content: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: -7;
 }
 .portfolio-infobox {
     max-width: 288px;
@@ -196,17 +219,14 @@ header {
     border: none;
 }
 .feature {
-    padding-top: 49px;
-    padding-bottom: 72px;
     margin: 0 auto;
-    max-width: 1249px;    
-    
+    max-width: 1249px;     
 }
 .feature-products {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 12px; 
+    margin-top: 65px;
 }
 .feature-products h2 {
     font-family: 'Open Sans', sans-serif;
@@ -214,8 +234,7 @@ header {
     font-weight: 600;
     font-size: 41.9876px;
     text-transform: uppercase; 
-    padding-left: 19px;
-    margin: 36px 0px 0px 0px;
+    margin-bottom: 3px;
 }
 .feature-products p {
     font-family: 'Open Sans', sans-serif;
@@ -224,7 +243,7 @@ header {
     font-size: 15.9953px;
     line-height: 28px; 
     margin-top: 12px;
-    margin-left: 33px;
+    margin-bottom: 19px;
     max-width: 537px;
     text-align: center 
 }
@@ -235,8 +254,8 @@ header {
     background-color: #ff2d2d;
 }
 .feature-menu{
-    margin-top: 55px;
-    margin-bottom: 28px;
+    margin-top: 57px;
+    margin-bottom: 25px;
 }
 .f-menu {
     display: flex;
@@ -287,8 +306,8 @@ header {
     font-weight: bold;
     font-size: 42.1902px;
     text-transform: uppercase; 
-    margin-top: 33px;  
-    margin-bottom: 18px;
+    margin-top: 113px;  
+    margin-bottom: 21px;
 }
 .team-hbox p {
     font-family: 'Open Sans', sans-serif;
@@ -297,7 +316,7 @@ header {
     max-width: 478px;
     font-size: 16px;
     line-height: 28px;
-    margin: 0 2px 32px;
+    margin: 0 2px 59px;
 }
 .line3 {
     width: 130px;
@@ -330,7 +349,7 @@ header {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 30.127px;
-    margin: 6px 0 0 21px;
+    margin: 11px 0 0 21px;
 }
 .tbox1 p{
     max-width: 662px;
@@ -339,7 +358,7 @@ header {
     font-weight: normal;
     font-size: 15.9953px;
     line-height: 28px;
-    margin: 16px 0 0 22px;
+    margin: 18px 0 0 22px;
 }
 .tbox1-soc {
     max-width: 370px;
@@ -378,7 +397,7 @@ header {
     background-color: #2c2c2c;
 }
 .subscribe-h {
-    padding-top: 142px;
+    padding-top: 149px;
 }
 .subscribe-h h2 {
     font-family: 'Open Sans', sans-serif;
@@ -398,7 +417,7 @@ header {
     font-size: 15.9953px;  
     color: #ffffff;
     text-align: center;
-    margin: 12px 0 60px;
+    margin: 17px 0 60px;
 }
 .subscribe-e {
     display: flex;
@@ -451,8 +470,8 @@ header {
     font-weight: bold;
     font-size: 42px; 
     text-transform: uppercase;
-    margin-top: 94px;
-    margin-bottom: 28px;
+    margin-top: 101px;
+    margin-bottom: 32px;
 }
 
 .touch-bx1 p{
@@ -468,7 +487,7 @@ header {
     width: 130px;
     height: 2px;
     border: none;
-    margin: 54px 0 0 0;
+    margin: 52px 0 0 0;
     background-color: #ff2d2d;
     margin-left: 165px;
 } 
@@ -506,7 +525,7 @@ header {
 }
 .name p {
     font-size: 18.0412px;
-    padding: 23px 0px 0px 53px;
+    padding: 26px 0px 0px 54px;
 
 }
 .y-mail {
@@ -517,7 +536,7 @@ header {
 }
 .y-mail p {
     font-size: 15.9134px;
-    padding: 24px 0px 0px 47px;
+    padding: 27px 0px 0px 47px;
 }
 .mesage {
     min-width: 730px;
@@ -530,7 +549,7 @@ header {
     font-style: normal;
     font-weight: normal;
     font-size: 15.9134px;
-    padding: 15px 0px 0px 51px;
+    padding: 18px 0px 0px 51px;
 }
 .button-send {
     min-width: 730px;
@@ -542,7 +561,7 @@ header {
 	justify-content: center;
 }
 .button-send a {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17.9026px;
@@ -557,20 +576,20 @@ header {
     color: #ffffff;
 }
 .co-info h3 {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 17.9026px;
     text-transform: uppercase;
-    padding: 121px 0px 0px 79px;
+    padding: 124px 0px 0px 79px;
 }
 .co-info p{
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    padding: 8px 0px 0px 79px;
+    padding: 9px 0px 0px 79px;
 }
 footer {
     margin: auto;
@@ -587,15 +606,15 @@ footer {
 	justify-content: space-between;    
 }
 .footer-co p {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     color: #B8B8B8;
-    padding: 38px 0px 0px 2px;
+    padding: 41px 0px 0px 3px;
 }
 .footer-soc {
-    margin-top: 38px;
+    margin-top: 40px;
 }
 .footer-soc a {
     padding-left: 14px;
